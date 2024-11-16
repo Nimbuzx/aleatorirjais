@@ -32,6 +32,29 @@ nav > a:hover {
 .iconscntt {
   width: 15%;
 }
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.linha > div {
+  flex: 1 1 calc(20% - 10px);
+  margin: 5px;
+  min-width: 120px;
+  max-width: 180px;
+}
+.insta{
+  background-color: rgb(195, 43, 226);
+}
+.insta:hover{
+  background-color: rgb(174, 43, 226);
+}
+.btn{
+  border-radius: 7px;
+}
 @media (max-width: 1023px) {
   #logo {
     margin-top: -10px;
@@ -58,11 +81,6 @@ nav > a:hover {
   #logo {
     width: 20%;
     margin-top: -15px;
-  }
-}
-@media (max-width: 770px) {
-  #cabeça {
-    position: absolute;
   }
 }
 @media (min-width: 600px) and (max-width: 650px) {
